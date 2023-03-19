@@ -1,0 +1,59 @@
+/* BASIC STYLES HERE */
+
+body {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  color: aliceblue;
+}
+
+
+.fix-height {
+  height: 59vh;
+}
+
+.glass-card {
+  color: aliceblue;
+  border-radius: 10px;
+  background-color: rgba(11, 37, 27, 0.38);
+  backdrop-filter: blur(15px);
+}
+
+.clock {
+  color: aliceblue;
+  text-shadow: 0px 0px 25px black;
+}
+
+#clock {
+  font-size: 72pt;
+}
+
+#weather {
+  cursor: default;
+  user-select: none;
+}
+
+#todo-list {
+  justify-content: end;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.quote-author {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s ease;
+}
+
+#quote:hover+.quote-author {
+  visibility: visible;
+  opacity: 1;
+}
+
+.text-shadow {
+  text-shadow: 0px 0px 15px black;
+}
